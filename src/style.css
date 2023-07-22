@@ -1,30 +1,38 @@
-body {
-    color: black;
-    background-color: white;
-    font-size: 12pt;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-p {
-    color: palevioletred;
-}
-
-h2 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 18pt;
-}
-
-.container {
-    display: flex;
-}
-
-.side_panel {
-    background-color: white;
-    width: 300pt;
-    padding: 20pt;
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
 .main_panel {
-    flex: 1;
-    padding: 20pt;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: azure;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.heading {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.nav_links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav_links li {
+    list-style: none;
 }
