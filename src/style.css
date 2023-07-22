@@ -8,3 +8,23 @@ body {
 p {
     color: palevioletred;
 }
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18pt;
+}
+
+.container {
+    display: flex;
+}
+
+.side_panel {
+    background-color: white;
+    width: 300pt;
+    padding: 20pt;
+}
+
+.main_panel {
+    flex: 1;
+    padding: 20pt;
+}
