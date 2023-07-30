@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Product Name</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <nav>
+            <div class="heading">
+              <h4>Navigation Bar</h4>
+            </div>
+            <ul class="nav_links">
+              <li><a href="home.html">Home</a></li>
+              <li><a href="../index.html">Index</a></li>
+              <li><a href="product_page.html">Product Page</a></li>
+              <li><a href="about.html">About</a></li>
+            </ul>
+          </nav>
+        <header style="background-color:#C4F5E8; text-align:center">
+            <h1><b>New Awesome Product</b></h1>
+        </header>
+        <main>
+            <img src="https://blob.sololearn.com/courses/np.png">
+            <!--Product description-->
+            <p>Introducing our <b>latest product</b>, designed to make 
+                your life easier and more efficient.</p>
+            <ul>
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+            </ul>
+            <h2 style="color:blue">Order now!</h2>
+            <form>
+                <label for="size">Size</label>
+                <select id="size">
+                    <option value="s">Small</option>
+                    <option value="m">Medium</option>
+                    <option value="l">Large</option>
+                </select>
+                <label for="color">Color</label>
+                <select id="color">
+                    <option value="r">Red</option>
+                    <option value="b">Blue</option> 
+                    <option value="g">Green</option>
+                </select>
+                <br>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email"><br>
+                <input type="submit" value="Submit" style="color:white; background-color:gray; border:none; border-radius:5px" onclick="alert('Order Confirmed!')">
+            </form>
+        </main>
+        <footer style="font-size:medium">
+            Made with HTML
+        </footer>
+    </body>
+</html>
