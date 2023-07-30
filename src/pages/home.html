@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <!-- Title of webpage, appears on the tab ribbon -->
   <meta charset="UTF-8">
@@ -7,7 +8,9 @@
   <!-- Link to external css sheet using <link rel="stylesheet" href="styles.css"> -->
   <link rel="stylesheet" href="../style.css">
 </head>
+
 <body>
+  <!--Navigation bar-->
   <nav>
     <div class="heading">
       <h4>Navigation Bar</h4>
@@ -26,7 +29,31 @@
   <img src=../www.png alt="a webpage">
   <br>
   <br>
+  <!--Button-->
   <button id="btn">Click Me</button>
   <script src="../script.js"></script>
+  <br>
+  <!--Form (data entry)-->
+  <form>
+    <!--Connect label to the input elements with the use of for and id attributes-->
+    <!--<input type="checkbox" id="box1">-->
+    <!--<label for="check1">Email</label>-->
+    <!--The id attribute is used to identify a unique input element. 
+      The for attribute in a label targets (and matches!) an input’s id.-->
+    <br>
+    <label>Enter text</label>
+    <input type="text"><br>
+    <label>Select the radio button</label>
+    <input type="radio"><br>
+    <label>Check the box</label>
+    <input type="checkbox"><br>
+    <!--Dropdown box-->
+    <select id="dropdown">
+      <option value="r">Red</option>
+      <option value="g">Green</option>
+      <option value="b">Blue</option>
+    </select>
+  </form>
 </body>
+
 </html>
