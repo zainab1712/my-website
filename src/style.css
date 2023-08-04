@@ -1,6 +1,5 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 5px 10px 5px 10px;
 }
 
 .main_panel {
@@ -59,4 +58,14 @@ Button settings
     display: inline-block;
     background-color: black;
     padding: 13px 26px;
+}
+
+.img1 {
+    align-self: center;
+    align-items: center;
+    align-content: center;
+}
+
+body {
+    padding: 0px 50px;
 }
