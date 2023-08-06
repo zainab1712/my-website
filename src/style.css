@@ -2,14 +2,25 @@
     margin: 5px 10px 5px 10px;
 }
 
-.main_panel {
-    display: flex;
-    font-family: Arial, Helvetica, sans-serif;
-    align-items: center;
-    justify-content: center;
-    margin-top: 250px;
+/*
+All pages
+*/
+body {
+    padding: 0px 50px;
 }
 
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*
+Navigation Bar
+*/
 nav {
     display: flex;
     justify-content: space-around;
@@ -18,13 +29,6 @@ nav {
     background-color:cadetblue;
     color: #2f5a78;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-.heading {
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-size: 20px;
 }
 
 .nav_links {
@@ -37,10 +41,31 @@ nav {
     list-style: none;
 }
 
-/**
-id: home_h1
+/*
+index.html
+*/
+.main_panel {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: initial;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.heading {
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+/*
+home.html
+*/
+
+/* id: home_h1
 Aligns heading to the center
-**/
+*/
 #home_h1 {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -60,22 +85,11 @@ Button settings
     padding: 13px 26px;
 }
 
+/*
+product_page.html
+*/
 .img1 {
     align-self: center;
     align-items: center;
     align-content: center;
 }
-
-body {
-    padding: 0px 50px;
-}
-
-a {
-    color: whitesmoke;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
