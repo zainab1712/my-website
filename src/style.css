@@ -69,3 +69,13 @@ Button settings
 body {
     padding: 0px 50px;
 }
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
