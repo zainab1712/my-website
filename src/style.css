@@ -119,10 +119,25 @@ about.html
     padding-top: 1%;
     font-size: 16px;
     line-height: 20px;
+    padding-bottom: 300px;
+    border: 1px solid #2f5a78;
 }
 
 .summary img {
     float: right;
     border: 1px solid #2f5a78;
     
+}
+
+.placeholder {
+    padding-top: 1%;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 300px;
+    border: 1px solid #2f5a78;
+}
+
+.placeholder img {
+    float: left;
+    border: 1px solid #2f5a78;
 }
