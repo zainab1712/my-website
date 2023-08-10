@@ -80,13 +80,14 @@ index.html
 home.html
 */
 
-/* id: home_h2
+/*
 Aligns heading to the center
 */
-#home_h1 {
+h1 {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    font-weight: bold;
 }
 
 /**
@@ -109,4 +110,19 @@ product_page.html
     align-self: center;
     align-items: center;
     align-content: center;
+}
+
+/*
+about.html
+*/
+.summary {
+    padding-top: 1%;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.summary img {
+    float: right;
+    border: 1px solid #2f5a78;
+    
 }
