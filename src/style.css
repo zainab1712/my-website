@@ -126,7 +126,8 @@ about.html
 .summary img {
     float: right;
     border: 1px solid #2f5a78;
-    
+    width: 220px;
+    height: auto;
 }
 
 .placeholder {
@@ -140,4 +141,6 @@ about.html
 .placeholder img {
     float: left;
     border: 1px solid #2f5a78;
+    width: 220px;
+    height: auto;
 }
